@@ -53,7 +53,7 @@ module.exports = function (app) {
         var totalDifference = 0;
         // Loop through all friends in the database
         for (var i = 0; i < friendData.length; i++) {
-            console.log(friendData[i].name);
+    //        console.log(friendData[i].name);
             totalDifference = 0;
 
             // Loop through all the scores of each friend
